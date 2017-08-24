@@ -2,7 +2,8 @@ import requests
 import html
 
 response = requests.get('https://api.icndb.com/jokes/random')
-# TODO: Add the ability to pass params for filter, exclude, first/last name and id
+# TODO: Add the ability to pass params (filter, exclude, change first/last name, display id)
+# TODO: Research how sysargs interprets arguments/parameters
 # TODO: Go TDD with this
 if response.ok:
     json = response.json()
