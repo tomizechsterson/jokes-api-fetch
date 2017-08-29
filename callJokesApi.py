@@ -16,8 +16,6 @@ parser.add_argument("-e", "--exclude", choices=(["explicit", "nerdy"]), action="
 parser.add_argument("-f", "--firstName", help="The first name to use to replace Chuck in the returned joke")
 parser.add_argument("-l", "--lastName", help="The last name to use to replace Norris in the returned joke")
 args = parser.parse_args()
-for arg in vars(args):
-    print(arg, getattr(args, arg))
 
 url = "https://api.icndb.com/jokes/random"
 params = {}
