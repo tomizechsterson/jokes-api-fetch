@@ -1,4 +1,4 @@
-# jokes-api-fetch
+# Chuck Norris Joke Fetch Script
 
 This should be called with version 3+ of Python
 
