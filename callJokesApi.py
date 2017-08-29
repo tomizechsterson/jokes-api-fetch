@@ -60,6 +60,7 @@ def print_joke(r, arguments):
     else:
         print(html.unescape(json["value"]["joke"]))
 
+
 parser = create_parser()
 args = parser.parse_args()
 params = parse_args_for_query(args)
