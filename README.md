@@ -1,3 +1,8 @@
+# Archival
+
+It seems the API this script used to call is no longer online, and I'm too lazy to update this to call what appears
+to be the [defacto API](https://api.chucknorris.io/) at this point. Therefore, this repo is going to be archived.
+
 # Chuck Norris Joke Fetch Script
 
 This should be called with version 3+ of Python
